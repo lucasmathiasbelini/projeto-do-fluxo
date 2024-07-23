@@ -1,33 +1,48 @@
+using Microsoft.Maui.Controls.Compatibility.Platform.iOS;
+
 public class User{
 
 String email;
 int id;
 String passaword;
+string cpf;
 
+///*****************************************************************************************///
+                                /// </summary>classe Set Email <summary>///  
 public void Setemail(string email){
-    
+    this.email=email;
 }
+
+///*****************************************************************************************///
+                               /// </summary> classe ID <summary>///             
 public void Setid(){
 this.id = 1000;
 }
+
+///*****************************************************************************************///
+                              /// </summary>classe Get Email <summary>///  
 public string Getemail(string email){
     return email;
 }
 
-public void Setemailstring(string email){
-if(this.email == null){
+///*****************************************************************************************///
 
- return" * acesso legado * ";
+public void Setcpf(string cpf){
+
+this.Setcpf(cpf);
 
 }
-else{
- return" * acesso negado * ;
+///******************************************************************************************///
+
+public void Getcpf(string cpf){
+    
 }
-}
+
 }
 
 
 
- 
+
+
 
 
