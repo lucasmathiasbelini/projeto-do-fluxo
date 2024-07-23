@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Aluno\\projeto-do-fluxo-2\\projeto-do-fluxo\\projeto-do-fluxo.csproj": {}
+    "C:\\Users\\Aluno\\projeto-do-fluxo\\projeto-do-fluxo\\projeto-do-fluxo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Aluno\\projeto-do-fluxo-2\\projeto-do-fluxo\\projeto-do-fluxo.csproj": {
+    "C:\\Users\\Aluno\\projeto-do-fluxo\\projeto-do-fluxo\\projeto-do-fluxo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aluno\\projeto-do-fluxo-2\\projeto-do-fluxo\\projeto-do-fluxo.csproj",
+        "projectUniqueName": "C:\\Users\\Aluno\\projeto-do-fluxo\\projeto-do-fluxo\\projeto-do-fluxo.csproj",
         "projectName": "projeto-do-fluxo",
-        "projectPath": "C:\\Users\\Aluno\\projeto-do-fluxo-2\\projeto-do-fluxo\\projeto-do-fluxo.csproj",
+        "projectPath": "C:\\Users\\Aluno\\projeto-do-fluxo\\projeto-do-fluxo\\projeto-do-fluxo.csproj",
         "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aluno\\projeto-do-fluxo-2\\projeto-do-fluxo\\obj\\",
+        "outputPath": "C:\\Users\\Aluno\\projeto-do-fluxo\\projeto-do-fluxo\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
@@ -77,6 +77,10 @@
               "target": "Package",
               "version": "[8.0.2, )",
               "autoReferenced": true
+            },
+            "liteDB": {
+              "target": "Package",
+              "version": "[5.0.21, )"
             }
           },
           "imports": [
@@ -120,6 +124,10 @@
               "target": "Package",
               "version": "[8.0.2, )",
               "autoReferenced": true
+            },
+            "liteDB": {
+              "target": "Package",
+              "version": "[5.0.21, )"
             }
           },
           "imports": [
@@ -163,6 +171,10 @@
               "target": "Package",
               "version": "[8.0.2, )",
               "autoReferenced": true
+            },
+            "liteDB": {
+              "target": "Package",
+              "version": "[5.0.21, )"
             }
           },
           "imports": [
@@ -201,6 +213,10 @@
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
               "version": "[8.0.0-rc.1.9171, )"
+            },
+            "liteDB": {
+              "target": "Package",
+              "version": "[5.0.21, )"
             }
           },
           "imports": [
