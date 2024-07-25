@@ -24,6 +24,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = projeto_do_fluxo.AppShell.
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
+[C:/Users/Aluno/projeto-do-fluxo-1/projeto-do-fluxo/login.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = projeto_do_fluxo.login.xaml
+build_metadata.AdditionalFiles.TargetPath = login.xaml
+build_metadata.AdditionalFiles.RelativePath = login.xaml
+
 [C:/Users/Aluno/projeto-do-fluxo-1/projeto-do-fluxo/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = projeto_do_fluxo.MainPage.xaml

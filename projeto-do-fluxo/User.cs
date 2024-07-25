@@ -1,4 +1,3 @@
-using Microsoft.Maui.Controls.Compatibility.Platform.iOS;
 
 public class User{
 
