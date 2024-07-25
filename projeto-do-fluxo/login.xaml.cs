@@ -1,40 +1,41 @@
 using System.Windows;
+using Microsoft.Maui.Controls;
 
-namespace projeto_do_fluxo_1;
+namespace projeto_do_fluxo;
 
-    public partial class login : ContentPage
+    public partial class Login : ContentPage
     {
-        public login()
+        public Login()
         {
             InitializeComponent();
         }
 
-        private void ForgotPassword_Click(object sender, projeto_do_fluxo e)
+        private void ForgotPassword_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Função de recuperação de senha não implementada.");
+          //  MessageBox.Show("Função de recuperação de senha não implementada.");
         }
 
-        private void HaveAccount_Click(object sender, RoutedEventArgs e)
+        private void HaveAccount_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Redirecionando para a página de login.");
+          //  MessageBox.Show("Redirecionando para a página de login.");
         }
 
-        private void Register_Click(object sender, RoutedEventArgs e)
+        private void Register_Click(object sender, EventArgs e)
         {
-            string email = EmailTextBox.Text;
-            string password = PasswordTextBox.Text;
+          //  string email = EmailTextBox.Text;
+           // string password = PasswordTextBox.Text;
 
-            MessageBox.Show($"Registrando com Email: {email}, Senha: {password}");
+          //  MessageBox.Show($"Registrando com Email: {email}, Senha: {password}");
         }
 
-        private void GoogleSignUp_Click(object sender, RoutedEventArgs e)
+        private void GoogleSignUp_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Função de cadastro com Google não implementada.");
+           // MessageBox.Show("Função de cadastro com Google não implementada.");
         }
 
-        private void FacebookSignUp_Click(object sender, RoutedEventArgs e)
+        private void FacebookSignUp_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Função de cadastro com Facebook não implementada.");
+            //MessageBox.Show("Função de cadastro com Facebook não implementada.");
         }
     }
 
