@@ -3,9 +3,9 @@ using Microsoft.Maui.Controls;
 
 namespace projeto_do_fluxo;
 
-    public partial class Login : ContentPage
+    public partial class login : ContentPage
     {
-        public Login()
+        public login()
         {
             InitializeComponent();
         }
